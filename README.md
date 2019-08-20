@@ -2,6 +2,10 @@
 You Will Need The Driver App to successfully run the projects. 
 The Project is not fully completed, so please don't forget to point an issue.
 
+### Node Version: 8.11.3
+
+### NPM Version: 5.6.0
+
 ### You will need to run the project on a mobile device to view the map.
 
 ### See Full Tutorial [HERE]()
