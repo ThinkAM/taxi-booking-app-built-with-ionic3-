@@ -6,6 +6,8 @@ The Project is not fully completed, so please don't forget to point an issue.
 
 ### NPM Version: 5.6.0
 
+### Firebase: Create Project With Authentication, Database, Storage, and Hosting
+
 ### You will need to run the project on a mobile device to view the map.
 
 ### See Full Tutorial [HERE]()
