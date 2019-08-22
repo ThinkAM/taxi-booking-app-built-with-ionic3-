@@ -1,1 +1,153 @@
-webpackJsonp([0],{355:function(n,l,u){"use strict";function t(n){return r._28(0,[(n()(),r._8(0,null,null,10,"ion-header",[["no-border",""]],null,null,null,null,null)),r._7(16384,null,0,s.a,[_.a,r.m,r.I,[2,c.a]],null,null),(n()(),r._27(null,["\n    "])),(n()(),r._8(0,null,null,6,"ion-navbar",[["class","toolbar"],["color","nav-color"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,d.b,d.a)),r._7(49152,null,0,p.a,[g.a,[2,c.a],[2,m.a],_.a,r.m,r.I],{color:[0,"color"]},null),(n()(),r._27(3,["\n      "])),(n()(),r._8(0,null,3,2,"ion-title",[],null,null,null,h.b,h.a)),r._7(49152,null,0,f.a,[_.a,r.m,r.I,[2,b.a],[2,p.a]],null,null),(n()(),r._27(0,["\n        Create an Account\n      "])),(n()(),r._27(3,["\n    "])),(n()(),r._27(null,["\n  "])),(n()(),r._27(null,["\n  \n"])),(n()(),r._8(0,null,null,40,"ion-content",[["class","no-scroll"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,y.b,y.a)),r._7(4374528,null,0,v.a,[_.a,I.a,C.a,r.m,r.I,g.a,w.a,r.C,[2,c.a],[2,m.a]],null,null),(n()(),r._27(1,["\n  "])),(n()(),r._27(1,["\n  "])),(n()(),r._8(0,null,1,31,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(n,l,u){var t=!0,o=n.component;return"submit"===l&&(t=!1!==r._21(n,18).onSubmit(u)&&t),"reset"===l&&(t=!1!==r._21(n,18).onReset()&&t),"submit"===l&&(t=!1!==o.signupUser()&&t),t},null,null)),r._7(16384,null,0,P.p,[],null,null),r._7(540672,null,0,P.f,[[8,null],[8,null]],{form:[0,"form"]},null),r._24(2048,null,P.b,null,[P.f]),r._7(16384,null,0,P.k,[P.b],null,null),(n()(),r._27(null,["\n\n      "])),(n()(),r._8(0,null,null,2,"ion-label",[["color","primary"],["stacked",""]],null,null,null,null,null)),r._7(16384,null,0,F.a,[_.a,r.m,r.I,[8,null],[8,""],[8,null],[8,null]],{color:[0,"color"]},null),(n()(),r._27(null,["Email"])),(n()(),r._27(null,["\n      "])),(n()(),r._8(0,null,null,5,"ion-input",[["formControlName","email"],["placeholder","Your email address"],["type","email"]],[[2,"invalid",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,k.b,k.a)),r._7(671744,null,0,P.e,[[3,P.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),r._24(2048,null,P.i,null,[P.e]),r._7(16384,null,0,P.j,[P.i],null,null),r._7(5423104,null,0,x.a,[_.a,I.a,O.a,g.a,r.m,r.I,[2,v.a],[2,M.a],[2,P.i],C.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(n()(),r._27(null,["\n      "])),(n()(),r._27(null,["\n    \n\n   \n      "])),(n()(),r._8(0,null,null,2,"ion-label",[["color","primary"],["stacked",""]],null,null,null,null,null)),r._7(16384,null,0,F.a,[_.a,r.m,r.I,[8,null],[8,""],[8,null],[8,null]],{color:[0,"color"]},null),(n()(),r._27(null,["Password"])),(n()(),r._27(null,["\n      "])),(n()(),r._8(0,null,null,5,"ion-input",[["formControlName","password"],["placeholder","Your password"],["type","password"]],[[2,"invalid",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,k.b,k.a)),r._7(671744,null,0,P.e,[[3,P.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),r._24(2048,null,P.i,null,[P.e]),r._7(16384,null,0,P.j,[P.i],null,null),r._7(5423104,null,0,x.a,[_.a,I.a,O.a,g.a,r.m,r.I,[2,v.a],[2,M.a],[2,P.i],C.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(n()(),r._27(null,["\n      "])),(n()(),r._27(null,["\n\n\n    "])),(n()(),r._8(0,null,null,2,"button",[["block",""],["ion-button",""],["padding",""],["type","submit"]],[[8,"disabled",0]],null,null,L.b,L.a)),r._7(1097728,null,0,S.a,[[8,""],_.a,r.m,r.I],{block:[0,"block"]},null),(n()(),r._27(0,["\n      Create an Account\n    "])),(n()(),r._27(null,["\n  "])),(n()(),r._27(1,["\n\n  "])),(n()(),r._8(0,null,1,2,"button",[["block",""],["color","light"],["ion-button",""]],null,[[null,"click"]],function(n,l,u){var t=!0,o=n.component;return"click"===l&&(t=!1!==o.goToLogin()&&t),t},L.b,L.a)),r._7(1097728,null,0,S.a,[[8,""],_.a,r.m,r.I],{color:[0,"color"],block:[1,"block"]},null),(n()(),r._27(0,["\n     Login.\n    "])),(n()(),r._27(1,["\n"]))],function(n,l){var u=l.component;n(l,4,0,"nav-color"),n(l,18,0,u.signupForm);n(l,23,0,"primary");n(l,27,0,"email");n(l,30,0,"email","Your email address");n(l,34,0,"primary");n(l,38,0,"password");n(l,41,0,"password","Your password");n(l,45,0,"");n(l,50,0,"light","")},function(n,l){var u=l.component;n(l,3,0,r._21(l,4)._hidden,r._21(l,4)._sbPadding),n(l,12,0,r._21(l,13).statusbarPadding,r._21(l,13)._hasRefresher),n(l,16,0,r._21(l,20).ngClassUntouched,r._21(l,20).ngClassTouched,r._21(l,20).ngClassPristine,r._21(l,20).ngClassDirty,r._21(l,20).ngClassValid,r._21(l,20).ngClassInvalid,r._21(l,20).ngClassPending),n(l,26,0,!u.signupForm.controls.email.valid&&u.signupForm.controls.email.dirty,r._21(l,29).ngClassUntouched,r._21(l,29).ngClassTouched,r._21(l,29).ngClassPristine,r._21(l,29).ngClassDirty,r._21(l,29).ngClassValid,r._21(l,29).ngClassInvalid,r._21(l,29).ngClassPending),n(l,37,0,!u.signupForm.controls.password.valid&&u.signupForm.controls.password.dirty,r._21(l,40).ngClassUntouched,r._21(l,40).ngClassTouched,r._21(l,40).ngClassPristine,r._21(l,40).ngClassDirty,r._21(l,40).ngClassValid,r._21(l,40).ngClassInvalid,r._21(l,40).ngClassPending),n(l,44,0,!u.signupForm.valid)})}Object.defineProperty(l,"__esModule",{value:!0});u(0),u(23);var o=u(27),e=(u(71),u(359)),a=(u(30),function(){function n(n,l,u,t,a,i){this.navCtrl=n,this.authProvider=l,this.formBuilder=u,this.loadingCtrl=t,this.ph=a,this.alertCtrl=i,this.signupForm=u.group({email:["",o.n.compose([o.n.required,e.a.isValid])],password:["",o.n.compose([o.n.minLength(6),o.n.required])]})}return n.prototype.signupUser=function(){var n=this;this.signupForm.valid?(this.authProvider.signupUser(this.signupForm.value.email,this.signupForm.value.password).then(function(){n.loading.dismiss().then(function(){null==n.ph.phone?n.navCtrl.push("StartupPage"):n.navCtrl.setRoot("HomePage")})},function(l){n.loading.dismiss().then(function(){n.alertCtrl.create({message:l.message,buttons:[{text:"Ok",role:"cancel"}]}).present()})}),(this.loading=this.loadingCtrl.create()).present()):console.log(this.signupForm.value)},n.prototype.goToLogin=function(){this.navCtrl.setRoot("LoginPage")},n}()),i=(u(0),u(23),function(){return function(){}}()),r=u(0),s=u(101),_=u(1),c=u(8),d=u(237),p=u(36),g=u(7),m=u(20),h=u(236),f=u(70),b=u(49),y=u(146),v=u(34),I=u(5),C=u(13),w=u(28),P=u(27),F=u(73),k=u(358),x=u(148),O=u(29),M=u(38),L=u(147),S=u(35),A=u(71),T=u(72),B=u(30),E=u(104),N=[],j=r._6({encapsulation:2,styles:N,data:{}}),z=r._5("page-signup",a,function(n){return r._28(0,[(n()(),r._8(0,null,null,1,"page-signup",[],null,null,null,t,j)),r._7(49152,null,0,a,[m.a,A.a,P.d,T.a,B.a,E.a],null,null)],null,null)},{},{},[]);u.d(l,"SignupPageModuleNgFactory",function(){return G});var D=u(0),R=u(15),U=u(27),Y=u(145),V=u(232),Z=u(233),q=u(234),K=u(235),H=u(69),J=this&&this.__extends||function(){var n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,l){n.__proto__=l}||function(n,l){for(var u in l)l.hasOwnProperty(u)&&(n[u]=l[u])};return function(l,u){function t(){this.constructor=l}n(l,u),l.prototype=null===u?Object.create(u):(t.prototype=u.prototype,new t)}}(),$=function(n){function l(l){return n.call(this,l,[V.a,Z.a,q.a,K.a,z],[])||this}return J(l,n),Object.defineProperty(l.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new R.i(this.parent.get(D.x))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new U.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new U.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),l.prototype.createInternal=function(){return this._CommonModule_0=new R.b,this._ɵba_1=new U.o,this._FormsModule_2=new U.g,this._ReactiveFormsModule_3=new U.m,this._IonicModule_4=new Y.a,this._IonicPageModule_5=new Y.b,this._SignupPageModule_6=new i,this._LAZY_LOADED_TOKEN_10=a,this._SignupPageModule_6},l.prototype.getInternal=function(n,l){return n===R.b?this._CommonModule_0:n===U.o?this._ɵba_1:n===U.g?this._FormsModule_2:n===U.m?this._ReactiveFormsModule_3:n===Y.a?this._IonicModule_4:n===Y.b?this._IonicPageModule_5:n===i?this._SignupPageModule_6:n===R.j?this._NgLocalization_7:n===U.q?this._ɵi_8:n===U.d?this._FormBuilder_9:n===H.a?this._LAZY_LOADED_TOKEN_10:l},l.prototype.destroyInternal=function(){},l}(D._3),G=new D.z($,i)},358:function(n,l,u){"use strict";function t(n){return r._28(0,[(n()(),r._8(0,[[1,0],["textInput",1]],null,1,"input",[["class","text-input"]],[[8,"type",0],[1,"aria-labelledby",0],[1,"min",0],[1,"max",0],[1,"step",0],[1,"autocomplete",0],[1,"autocorrect",0],[8,"placeholder",0],[8,"disabled",0],[8,"readOnly",0]],[[null,"input"],[null,"blur"],[null,"focus"],[null,"keydown"]],function(n,l,u){var t=!0,o=n.component;return"input"===l&&(t=!1!==o.onInput(u)&&t),"blur"===l&&(t=!1!==o.onBlur(u)&&t),"focus"===l&&(t=!1!==o.onFocus(u)&&t),"keydown"===l&&(t=!1!==o.onKeydown(u)&&t),t},null,null)),r._7(278528,null,0,s.f,[r.v,r.w,r.m,r.I],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null)],function(n,l){n(l,1,0,"text-input","text-input-"+l.component._mode)},function(n,l){var u=l.component;n(l,0,0,u._type,u._labelId,u.min,u.max,u.step,u.autocomplete,u.autocorrect,u.placeholder,u._disabled,u._readonly)})}function o(n){return r._28(0,[(n()(),r._8(0,[[1,0],["textInput",1]],null,1,"textarea",[["class","text-input"]],[[1,"aria-labelledby",0],[1,"autocomplete",0],[1,"autocorrect",0],[8,"placeholder",0],[8,"disabled",0],[8,"readOnly",0]],[[null,"input"],[null,"blur"],[null,"focus"],[null,"keydown"]],function(n,l,u){var t=!0,o=n.component;return"input"===l&&(t=!1!==o.onInput(u)&&t),"blur"===l&&(t=!1!==o.onBlur(u)&&t),"focus"===l&&(t=!1!==o.onFocus(u)&&t),"keydown"===l&&(t=!1!==o.onKeydown(u)&&t),t},null,null)),r._7(278528,null,0,s.f,[r.v,r.w,r.m,r.I],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null)],function(n,l){n(l,1,0,"text-input","text-input-"+l.component._mode)},function(n,l){var u=l.component;n(l,0,0,u._labelId,u.autocomplete,u.autocorrect,u.placeholder,u._disabled,u._readonly)})}function e(n){return r._28(0,[(n()(),r._8(0,null,null,1,"button",[["class","text-input-clear-icon"],["clear",""],["ion-button",""],["tabindex","-1"],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(n,l,u){var t=!0,o=n.component;return"click"===l&&(t=!1!==o.clearTextInput(u)&&t),"mousedown"===l&&(t=!1!==o.clearTextInput(u)&&t),t},_.b,_.a)),r._7(1097728,null,0,c.a,[[8,""],d.a,r.m,r.I],{clear:[0,"clear"]},null)],function(n,l){n(l,1,0,"")},null)}function a(n){return r._28(0,[(n()(),r._8(0,null,null,0,"div",[["class","input-cover"]],null,[[null,"touchstart"],[null,"touchend"],[null,"mousedown"],[null,"mouseup"]],function(n,l,u){var t=!0,o=n.component;return"touchstart"===l&&(t=!1!==o._pointerStart(u)&&t),"touchend"===l&&(t=!1!==o._pointerEnd(u)&&t),"mousedown"===l&&(t=!1!==o._pointerStart(u)&&t),"mouseup"===l&&(t=!1!==o._pointerEnd(u)&&t),t},null,null))],null,null)}function i(n){return r._28(2,[r._25(671088640,1,{_native:0}),(n()(),r._4(16777216,null,null,1,null,t)),r._7(16384,null,0,s.h,[r.S,r.P],{ngIf:[0,"ngIf"]},null),(n()(),r._4(16777216,null,null,1,null,o)),r._7(16384,null,0,s.h,[r.S,r.P],{ngIf:[0,"ngIf"]},null),(n()(),r._4(16777216,null,null,1,null,e)),r._7(16384,null,0,s.h,[r.S,r.P],{ngIf:[0,"ngIf"]},null),(n()(),r._4(16777216,null,null,1,null,a)),r._7(16384,null,0,s.h,[r.S,r.P],{ngIf:[0,"ngIf"]},null)],function(n,l){var u=l.component;n(l,2,0,!u._isTextarea),n(l,4,0,u._isTextarea),n(l,6,0,u._clearInput),n(l,8,0,u._useAssist)},null)}u.d(l,"a",function(){return C}),l.b=i;var r=u(0),s=u(15),_=u(147),c=u(35),d=u(1),p=u(148),g=u(5),m=u(29),h=u(7),f=u(34),b=u(38),y=u(27),v=u(13),I=[],C=r._6({encapsulation:2,styles:I,data:{}});r._5("ion-input,ion-textarea",p.a,function(n){return r._28(0,[(n()(),r._8(0,null,null,1,"ion-input",[],null,null,null,i,C)),r._7(5423104,null,0,p.a,[d.a,g.a,m.a,h.a,r.m,r.I,[2,f.a],[2,b.a],[2,y.i],v.a],null,null)],null,null)},{value:"value",color:"color",mode:"mode",disabled:"disabled",clearInput:"clearInput",type:"type",readonly:"readonly",clearOnEdit:"clearOnEdit",autocomplete:"autocomplete",autocorrect:"autocorrect",placeholder:"placeholder",min:"min",max:"max",step:"step"},{ionFocus:"ionFocus",ionChange:"ionChange",ionBlur:"ionBlur",input:"input",blur:"blur",focus:"focus"},[])},359:function(n,l,u){"use strict";u.d(l,"a",function(){return t});var t=function(){function n(){}return n.isValid=function(n){return/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(n.value)?null:{invalidEmail:!0}},n}()}});
+webpackJsonp([0],{
+
+/***/ 458:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SignupPageModule", function() { return SignupPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__signup__ = __webpack_require__(476);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var SignupPageModule = (function () {
+    function SignupPageModule() {
+    }
+    return SignupPageModule;
+}());
+SignupPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [__WEBPACK_IMPORTED_MODULE_2__signup__["a" /* SignupPage */]],
+        imports: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__signup__["a" /* SignupPage */])],
+    })
+], SignupPageModule);
+
+//# sourceMappingURL=signup.module.js.map
+
+/***/ }),
+
+/***/ 461:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmailValidator; });
+var EmailValidator = (function () {
+    function EmailValidator() {
+    }
+    EmailValidator.isValid = function (control) {
+        var re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(control.value);
+        if (re) {
+            return null;
+        }
+        return {
+            "invalidEmail": true
+        };
+    };
+    return EmailValidator;
+}());
+
+//# sourceMappingURL=email.js.map
+
+/***/ }),
+
+/***/ 476:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SignupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__validators_email__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_profile_profile__ = __webpack_require__(45);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var SignupPage = (function () {
+    function SignupPage(navCtrl, authProvider, formBuilder, loadingCtrl, ph, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.authProvider = authProvider;
+        this.formBuilder = formBuilder;
+        this.loadingCtrl = loadingCtrl;
+        this.ph = ph;
+        this.alertCtrl = alertCtrl;
+        this.signupForm = formBuilder.group({
+            email: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_4__validators_email__["a" /* EmailValidator */].isValid])],
+            password: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].minLength(6), __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required])]
+        });
+    }
+    SignupPage.prototype.signupUser = function () {
+        var _this = this;
+        if (!this.signupForm.valid) {
+            console.log(this.signupForm.value);
+        }
+        else {
+            this.authProvider.signupUser(this.signupForm.value.email, this.signupForm.value.password)
+                .then(function () {
+                _this.loading.dismiss().then(function () {
+                    if (_this.ph.phone == null)
+                        _this.navCtrl.push('StartupPage');
+                    else
+                        _this.navCtrl.setRoot('HomePage');
+                });
+            }, function (error) {
+                _this.loading.dismiss().then(function () {
+                    var alert = _this.alertCtrl.create({
+                        message: error.message,
+                        buttons: [
+                            {
+                                text: "Ok",
+                                role: 'cancel'
+                            }
+                        ]
+                    });
+                    alert.present();
+                });
+            });
+            this.loading = this.loadingCtrl.create();
+            this.loading.present();
+        }
+    };
+    SignupPage.prototype.goToLogin = function () {
+        this.navCtrl.setRoot('LoginPage');
+    };
+    return SignupPage;
+}());
+SignupPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-signup',template:/*ion-inline-start:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\signup\signup.html"*/'<ion-header no-border>\n\n    <ion-navbar color="nav-color">\n\n      <ion-title>\n\n        Create an Account\n\n      </ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n<ion-content class="no-scroll" padding>\n\n  <!-- <div text-center>\n\n    <img src=\'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMzJweCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjAgMzI7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyMCAzMiIgd2lkdGg9IjIwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJMYXllcl8xIi8+PGcgaWQ9Im1hcF94NUZfcGluX3g1Rl9zdHJva2UiPjxnPjxwYXRoIGQ9Ik05Ljk5Niw0YzEuNjA1LDAsMy4xMTMsMC42MjUsNC4yNDYsMS43NkMxNS4zNzUsNi44OTEsMTYsOC4zOTgsMTYsMTBzLTAuNjI1LDMuMTA5LTEuNzMsNC4yMTMgICAgYy0wLjE2OCwwLjE2Ni0yLjIzOCwyLjIyNS00LjI3Myw1LjQ0MWMtMi4wMi0zLjIxMS00LjA4Mi01LjI2Mi00LjIzOC01LjQxNEM0LjYyNSwxMy4xMDksNCwxMS42MDIsNCwxMHMwLjYyNS0zLjEwOSwxLjc1OC00LjI0MiAgICBTOC4zMTQsNCw5Ljk5Niw0IE05Ljk5NiwwQzcuNDQxLDAsNC44ODMsMC45NzcsMi45MywyLjkzYy0zLjkwNiwzLjkwNC0zLjkwNiwxMC4yMzYsMCwxNC4xNDFjMCwwLDcuMDY2LDYuOTMsNy4wNjYsMTQuOTMgICAgYzAtOCw3LjA3NC0xNC45Myw3LjA3NC0xNC45M2MzLjkwNi0zLjkwNCwzLjkwNi0xMC4yMzYsMC0xNC4xNDFDMTUuMTE3LDAuOTc3LDEyLjU1OSwwLDkuOTk2LDBMOS45OTYsMHoiIHN0eWxlPSJmaWxsOiM0RTRFNTA7Ii8+PHBhdGggZD0iTTEyLDEwYzAsMS4xMDUtMC44OTUsMi0yLjAwNCwyQzguODExLDEyLDgsMTEuMTA1LDgsMTBzMC44MTEtMiwxLjk5Ni0yQzExLjEwNSw4LDEyLDguODk1LDEyLDEweiIgc3R5bGU9ImZpbGw6IzRFNEU1MDsiLz48L2c+PC9nPjwvc3ZnPg==\'/>\n\n  </div> -->\n\n  <form [formGroup]="signupForm" (submit)="signupUser()" novalidate>\n\n\n\n      <ion-label color=\'primary\' stacked>Email</ion-label>\n\n      <ion-input formControlName="email" type="email" placeholder="Your email address" \n\n        [class.invalid]="!signupForm.controls.email.valid && signupForm.controls.email.dirty">\n\n      </ion-input>\n\n    \n\n\n\n   \n\n      <ion-label color=\'primary\' stacked>Password</ion-label>\n\n      <ion-input formControlName="password" type="password" placeholder="Your password" \n\n        [class.invalid]="!signupForm.controls.password.valid && signupForm.controls.password.dirty">\n\n      </ion-input>\n\n\n\n\n\n    <button padding ion-button block type="submit" [disabled]="!signupForm.valid">\n\n      Create an Account\n\n    </button>\n\n  </form>\n\n\n\n  <button color=\'light\'ion-button block (click)="goToLogin()">\n\n     Login.\n\n    </button>\n\n</ion-content>'/*ion-inline-end:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\signup\signup.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_5__providers_profile_profile__["a" /* ProfileProvider */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], SignupPage);
+
+//# sourceMappingURL=signup.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=0.js.map

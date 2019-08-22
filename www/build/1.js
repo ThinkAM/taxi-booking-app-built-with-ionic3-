@@ -1,1 +1,141 @@
-webpackJsonp([1],{354:function(l,n,u){"use strict";function e(l){return s._28(0,[(l()(),s._8(0,null,null,9,"ion-item",[["class","error-message item item-block"],["no-lines",""]],null,null,null,_.b,_.a)),s._7(1097728,null,3,c.a,[d.a,p.a,s.m,s.I,[2,m.a]],null,null),s._25(335544320,1,{contentLabel:0}),s._25(603979776,2,{_buttons:1}),s._25(603979776,3,{_icons:1}),s._7(16384,null,0,f.a,[],null,null),(l()(),s._27(2,["\n      "])),(l()(),s._8(0,null,2,1,"p",[],null,null,null,null,null)),(l()(),s._27(null,["Please enter a valid email."])),(l()(),s._27(2,["\n    "]))],null,null)}function t(l){return s._28(0,[(l()(),s._8(0,null,null,10,"ion-header",[["no-border",""]],null,null,null,null,null)),s._7(16384,null,0,h.a,[p.a,s.m,s.I,[2,g.a]],null,null),(l()(),s._27(null,["\n  "])),(l()(),s._8(0,null,null,6,"ion-navbar",[["class","toolbar"],["color","nav-color"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,b.b,b.a)),s._7(49152,null,0,y.a,[v.a,[2,g.a],[2,w.a],p.a,s.m,s.I],{color:[0,"color"]},null),(l()(),s._27(3,["\n    "])),(l()(),s._8(0,null,3,2,"ion-title",[],null,null,null,P.b,P.a)),s._7(49152,null,0,I.a,[p.a,s.m,s.I,[2,C.a],[2,y.a]],null,null),(l()(),s._27(0,["\n      Reset your Password\n    "])),(l()(),s._27(3,["\n  "])),(l()(),s._27(null,["\n"])),(l()(),s._27(null,["\n\n\n"])),(l()(),s._8(0,null,null,28,"ion-content",[["class","no-scroll"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,x.b,x.a)),s._7(4374528,null,0,F.a,[p.a,k.a,O.a,s.m,s.I,v.a,M.a,s.C,[2,g.a],[2,w.a]],null,null),(l()(),s._27(1,["\n  "])),(l()(),s._27(1,["\n  "])),(l()(),s._8(0,null,1,23,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var e=!0,t=l.component;return"submit"===n&&(e=!1!==s._21(l,18).onSubmit(u)&&e),"reset"===n&&(e=!1!==s._21(l,18).onReset()&&e),"submit"===n&&(e=!1!==t.resetPassword()&&e),e},null,null)),s._7(16384,null,0,B.p,[],null,null),s._7(540672,null,0,B.f,[[8,null],[8,null]],{form:[0,"form"]},null),s._24(2048,null,B.b,null,[B.f]),s._7(16384,null,0,B.k,[B.b],null,null),(l()(),s._27(null,["\n\n  \n      "])),(l()(),s._8(0,null,null,2,"ion-label",[["color","primary"],["stacked",""]],null,null,null,null,null)),s._7(16384,null,0,E.a,[p.a,s.m,s.I,[8,null],[8,""],[8,null],[8,null]],{color:[0,"color"]},null),(l()(),s._27(null,["Email"])),(l()(),s._27(null,["\n      "])),(l()(),s._8(0,null,null,5,"ion-input",[["formControlName","email"],["no-lines",""],["placeholder","Your email address"],["type","email"]],[[2,"invalid",null],[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,L.b,L.a)),s._7(671744,null,0,B.e,[[3,B.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),s._24(2048,null,B.i,null,[B.e]),s._7(16384,null,0,B.j,[B.i],null,null),s._7(5423104,null,0,R.a,[p.a,k.a,d.a,v.a,s.m,s.I,[2,F.a],[2,c.a],[2,B.i],O.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),s._27(null,["\n      "])),(l()(),s._27(null,["\n  \n    "])),(l()(),s._4(16777216,null,null,1,null,e)),s._7(16384,null,0,j.h,[s.S,s.P],{ngIf:[0,"ngIf"]},null),(l()(),s._27(null,["\n\n    "])),(l()(),s._8(0,null,null,2,"button",[["block",""],["ion-button",""],["padding",""],["type","submit"]],[[8,"disabled",0]],null,null,z.b,z.a)),s._7(1097728,null,0,A.a,[[8,""],p.a,s.m,s.I],{block:[0,"block"]},null),(l()(),s._27(0,["\n      Reset your Password\n    "])),(l()(),s._27(null,["\n\n  "])),(l()(),s._27(1,["\n\n"]))],function(l,n){var u=n.component;l(n,4,0,"nav-color"),l(n,18,0,u.resetPasswordForm);l(n,23,0,"primary");l(n,27,0,"email");l(n,30,0,"email","Your email address"),l(n,34,0,!u.resetPasswordForm.controls.email.valid&&u.resetPasswordForm.controls.email.dirty);l(n,37,0,"")},function(l,n){var u=n.component;l(n,3,0,s._21(n,4)._hidden,s._21(n,4)._sbPadding),l(n,12,0,s._21(n,13).statusbarPadding,s._21(n,13)._hasRefresher),l(n,16,0,s._21(n,20).ngClassUntouched,s._21(n,20).ngClassTouched,s._21(n,20).ngClassPristine,s._21(n,20).ngClassDirty,s._21(n,20).ngClassValid,s._21(n,20).ngClassInvalid,s._21(n,20).ngClassPending),l(n,26,0,!u.resetPasswordForm.controls.email.valid&&u.resetPasswordForm.controls.email.dirty,s._21(n,29).ngClassUntouched,s._21(n,29).ngClassTouched,s._21(n,29).ngClassPristine,s._21(n,29).ngClassDirty,s._21(n,29).ngClassValid,s._21(n,29).ngClassInvalid,s._21(n,29).ngClassPending),l(n,36,0,!u.resetPasswordForm.valid)})}Object.defineProperty(n,"__esModule",{value:!0});u(0),u(23);var o=u(27),a=(u(71),u(359)),r=function(){function l(l,n,u,e){this.navCtrl=l,this.authProvider=n,this.formBuilder=u,this.alertCtrl=e,this.resetPasswordForm=u.group({email:["",o.n.compose([o.n.required,a.a.isValid])]})}return l.prototype.resetPassword=function(){var l=this;this.resetPasswordForm.valid?this.authProvider.resetPassword(this.resetPasswordForm.value.email).then(function(n){l.alertCtrl.create({message:"We just sent you a reset link to your email",buttons:[{text:"Ok",role:"cancel",handler:function(){l.navCtrl.pop()}}]}).present()},function(n){var u=n.message;l.alertCtrl.create({message:u,buttons:[{text:"Ok",role:"cancel"}]}).present()}):console.log(this.resetPasswordForm.value)},l}(),i=(u(0),u(23),function(){return function(){}}()),s=u(0),_=u(149),c=u(38),d=u(29),p=u(1),m=u(50),f=u(102),h=u(101),g=u(8),b=u(237),y=u(36),v=u(7),w=u(20),P=u(236),I=u(70),C=u(49),x=u(146),F=u(34),k=u(5),O=u(13),M=u(28),B=u(27),E=u(73),L=u(358),R=u(148),j=u(15),z=u(147),A=u(35),N=u(71),S=u(104),T=[],D=s._6({encapsulation:2,styles:T,data:{}}),Z=s._5("page-reset-password",r,function(l){return s._28(0,[(l()(),s._8(0,null,null,1,"page-reset-password",[],null,null,null,t,D)),s._7(49152,null,0,r,[w.a,N.a,B.d,S.a],null,null)],null,null)},{},{},[]);u.d(n,"ResetPasswordPageModuleNgFactory",function(){return X});var K=u(0),V=u(15),Y=u(27),q=u(145),U=u(232),J=u(233),W=u(234),$=u(235),G=u(69),H=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function e(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(e.prototype=u.prototype,new e)}}(),Q=function(l){function n(n){return l.call(this,n,[U.a,J.a,W.a,$.a,Z],[])||this}return H(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new V.i(this.parent.get(K.x))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new Y.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new Y.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new V.b,this._ɵba_1=new Y.o,this._FormsModule_2=new Y.g,this._ReactiveFormsModule_3=new Y.m,this._IonicModule_4=new q.a,this._IonicPageModule_5=new q.b,this._ResetPasswordPageModule_6=new i,this._LAZY_LOADED_TOKEN_10=r,this._ResetPasswordPageModule_6},n.prototype.getInternal=function(l,n){return l===V.b?this._CommonModule_0:l===Y.o?this._ɵba_1:l===Y.g?this._FormsModule_2:l===Y.m?this._ReactiveFormsModule_3:l===q.a?this._IonicModule_4:l===q.b?this._IonicPageModule_5:l===i?this._ResetPasswordPageModule_6:l===V.j?this._NgLocalization_7:l===Y.q?this._ɵi_8:l===Y.d?this._FormBuilder_9:l===G.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(K._3),X=new K.z(Q,i)},358:function(l,n,u){"use strict";function e(l){return i._28(0,[(l()(),i._8(0,[[1,0],["textInput",1]],null,1,"input",[["class","text-input"]],[[8,"type",0],[1,"aria-labelledby",0],[1,"min",0],[1,"max",0],[1,"step",0],[1,"autocomplete",0],[1,"autocorrect",0],[8,"placeholder",0],[8,"disabled",0],[8,"readOnly",0]],[[null,"input"],[null,"blur"],[null,"focus"],[null,"keydown"]],function(l,n,u){var e=!0,t=l.component;return"input"===n&&(e=!1!==t.onInput(u)&&e),"blur"===n&&(e=!1!==t.onBlur(u)&&e),"focus"===n&&(e=!1!==t.onFocus(u)&&e),"keydown"===n&&(e=!1!==t.onKeydown(u)&&e),e},null,null)),i._7(278528,null,0,s.f,[i.v,i.w,i.m,i.I],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null)],function(l,n){l(n,1,0,"text-input","text-input-"+n.component._mode)},function(l,n){var u=n.component;l(n,0,0,u._type,u._labelId,u.min,u.max,u.step,u.autocomplete,u.autocorrect,u.placeholder,u._disabled,u._readonly)})}function t(l){return i._28(0,[(l()(),i._8(0,[[1,0],["textInput",1]],null,1,"textarea",[["class","text-input"]],[[1,"aria-labelledby",0],[1,"autocomplete",0],[1,"autocorrect",0],[8,"placeholder",0],[8,"disabled",0],[8,"readOnly",0]],[[null,"input"],[null,"blur"],[null,"focus"],[null,"keydown"]],function(l,n,u){var e=!0,t=l.component;return"input"===n&&(e=!1!==t.onInput(u)&&e),"blur"===n&&(e=!1!==t.onBlur(u)&&e),"focus"===n&&(e=!1!==t.onFocus(u)&&e),"keydown"===n&&(e=!1!==t.onKeydown(u)&&e),e},null,null)),i._7(278528,null,0,s.f,[i.v,i.w,i.m,i.I],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null)],function(l,n){l(n,1,0,"text-input","text-input-"+n.component._mode)},function(l,n){var u=n.component;l(n,0,0,u._labelId,u.autocomplete,u.autocorrect,u.placeholder,u._disabled,u._readonly)})}function o(l){return i._28(0,[(l()(),i._8(0,null,null,1,"button",[["class","text-input-clear-icon"],["clear",""],["ion-button",""],["tabindex","-1"],["type","button"]],null,[[null,"click"],[null,"mousedown"]],function(l,n,u){var e=!0,t=l.component;return"click"===n&&(e=!1!==t.clearTextInput(u)&&e),"mousedown"===n&&(e=!1!==t.clearTextInput(u)&&e),e},_.b,_.a)),i._7(1097728,null,0,c.a,[[8,""],d.a,i.m,i.I],{clear:[0,"clear"]},null)],function(l,n){l(n,1,0,"")},null)}function a(l){return i._28(0,[(l()(),i._8(0,null,null,0,"div",[["class","input-cover"]],null,[[null,"touchstart"],[null,"touchend"],[null,"mousedown"],[null,"mouseup"]],function(l,n,u){var e=!0,t=l.component;return"touchstart"===n&&(e=!1!==t._pointerStart(u)&&e),"touchend"===n&&(e=!1!==t._pointerEnd(u)&&e),"mousedown"===n&&(e=!1!==t._pointerStart(u)&&e),"mouseup"===n&&(e=!1!==t._pointerEnd(u)&&e),e},null,null))],null,null)}function r(l){return i._28(2,[i._25(671088640,1,{_native:0}),(l()(),i._4(16777216,null,null,1,null,e)),i._7(16384,null,0,s.h,[i.S,i.P],{ngIf:[0,"ngIf"]},null),(l()(),i._4(16777216,null,null,1,null,t)),i._7(16384,null,0,s.h,[i.S,i.P],{ngIf:[0,"ngIf"]},null),(l()(),i._4(16777216,null,null,1,null,o)),i._7(16384,null,0,s.h,[i.S,i.P],{ngIf:[0,"ngIf"]},null),(l()(),i._4(16777216,null,null,1,null,a)),i._7(16384,null,0,s.h,[i.S,i.P],{ngIf:[0,"ngIf"]},null)],function(l,n){var u=n.component;l(n,2,0,!u._isTextarea),l(n,4,0,u._isTextarea),l(n,6,0,u._clearInput),l(n,8,0,u._useAssist)},null)}u.d(n,"a",function(){return P}),n.b=r;var i=u(0),s=u(15),_=u(147),c=u(35),d=u(1),p=u(148),m=u(5),f=u(29),h=u(7),g=u(34),b=u(38),y=u(27),v=u(13),w=[],P=i._6({encapsulation:2,styles:w,data:{}});i._5("ion-input,ion-textarea",p.a,function(l){return i._28(0,[(l()(),i._8(0,null,null,1,"ion-input",[],null,null,null,r,P)),i._7(5423104,null,0,p.a,[d.a,m.a,f.a,h.a,i.m,i.I,[2,g.a],[2,b.a],[2,y.i],v.a],null,null)],null,null)},{value:"value",color:"color",mode:"mode",disabled:"disabled",clearInput:"clearInput",type:"type",readonly:"readonly",clearOnEdit:"clearOnEdit",autocomplete:"autocomplete",autocorrect:"autocorrect",placeholder:"placeholder",min:"min",max:"max",step:"step"},{ionFocus:"ionFocus",ionChange:"ionChange",ionBlur:"ionBlur",input:"input",blur:"blur",focus:"focus"},[])},359:function(l,n,u){"use strict";u.d(n,"a",function(){return e});var e=function(){function l(){}return l.isValid=function(l){return/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(l.value)?null:{invalidEmail:!0}},l}()}});
+webpackJsonp([1],{
+
+/***/ 457:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResetPasswordPageModule", function() { return ResetPasswordPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reset_password__ = __webpack_require__(475);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ResetPasswordPageModule = (function () {
+    function ResetPasswordPageModule() {
+    }
+    return ResetPasswordPageModule;
+}());
+ResetPasswordPageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [__WEBPACK_IMPORTED_MODULE_2__reset_password__["a" /* ResetPasswordPage */]],
+        imports: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__reset_password__["a" /* ResetPasswordPage */])],
+    })
+], ResetPasswordPageModule);
+
+//# sourceMappingURL=reset-password.module.js.map
+
+/***/ }),
+
+/***/ 461:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmailValidator; });
+var EmailValidator = (function () {
+    function EmailValidator() {
+    }
+    EmailValidator.isValid = function (control) {
+        var re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/.test(control.value);
+        if (re) {
+            return null;
+        }
+        return {
+            "invalidEmail": true
+        };
+    };
+    return EmailValidator;
+}());
+
+//# sourceMappingURL=email.js.map
+
+/***/ }),
+
+/***/ 475:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ResetPasswordPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__validators_email__ = __webpack_require__(461);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var ResetPasswordPage = (function () {
+    function ResetPasswordPage(navCtrl, authProvider, formBuilder, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.authProvider = authProvider;
+        this.formBuilder = formBuilder;
+        this.alertCtrl = alertCtrl;
+        this.resetPasswordForm = formBuilder.group({
+            email: ['', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_2__angular_forms__["f" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_4__validators_email__["a" /* EmailValidator */].isValid])],
+        });
+    }
+    ResetPasswordPage.prototype.resetPassword = function () {
+        var _this = this;
+        if (!this.resetPasswordForm.valid) {
+            console.log(this.resetPasswordForm.value);
+        }
+        else {
+            this.authProvider.resetPassword(this.resetPasswordForm.value.email)
+                .then(function (user) {
+                var alert = _this.alertCtrl.create({
+                    message: "We just sent you a reset link to your email",
+                    buttons: [
+                        {
+                            text: "Ok",
+                            role: 'cancel',
+                            handler: function () { _this.navCtrl.pop(); }
+                        }
+                    ]
+                });
+                alert.present();
+            }, function (error) {
+                var errorMessage = error.message;
+                var errorAlert = _this.alertCtrl.create({
+                    message: errorMessage,
+                    buttons: [{ text: "Ok", role: 'cancel' }]
+                });
+                errorAlert.present();
+            });
+        }
+    };
+    return ResetPasswordPage;
+}());
+ResetPasswordPage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-reset-password',template:/*ion-inline-start:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\reset-password\reset-password.html"*/'<ion-header no-border>\n\n  <ion-navbar color="nav-color">\n\n    <ion-title>\n\n      Reset your Password\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content class="no-scroll" padding>\n\n  <!-- <div text-center>\n\n    <img src=\'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMzJweCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjAgMzI7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyMCAzMiIgd2lkdGg9IjIwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJMYXllcl8xIi8+PGcgaWQ9Im1hcF94NUZfcGluX3g1Rl9zdHJva2UiPjxnPjxwYXRoIGQ9Ik05Ljk5Niw0YzEuNjA1LDAsMy4xMTMsMC42MjUsNC4yNDYsMS43NkMxNS4zNzUsNi44OTEsMTYsOC4zOTgsMTYsMTBzLTAuNjI1LDMuMTA5LTEuNzMsNC4yMTMgICAgYy0wLjE2OCwwLjE2Ni0yLjIzOCwyLjIyNS00LjI3Myw1LjQ0MWMtMi4wMi0zLjIxMS00LjA4Mi01LjI2Mi00LjIzOC01LjQxNEM0LjYyNSwxMy4xMDksNCwxMS42MDIsNCwxMHMwLjYyNS0zLjEwOSwxLjc1OC00LjI0MiAgICBTOC4zMTQsNCw5Ljk5Niw0IE05Ljk5NiwwQzcuNDQxLDAsNC44ODMsMC45NzcsMi45MywyLjkzYy0zLjkwNiwzLjkwNC0zLjkwNiwxMC4yMzYsMCwxNC4xNDFjMCwwLDcuMDY2LDYuOTMsNy4wNjYsMTQuOTMgICAgYzAtOCw3LjA3NC0xNC45Myw3LjA3NC0xNC45M2MzLjkwNi0zLjkwNCwzLjkwNi0xMC4yMzYsMC0xNC4xNDFDMTUuMTE3LDAuOTc3LDEyLjU1OSwwLDkuOTk2LDBMOS45OTYsMHoiIHN0eWxlPSJmaWxsOiM0RTRFNTA7Ii8+PHBhdGggZD0iTTEyLDEwYzAsMS4xMDUtMC44OTUsMi0yLjAwNCwyQzguODExLDEyLDgsMTEuMTA1LDgsMTBzMC44MTEtMiwxLjk5Ni0yQzExLjEwNSw4LDEyLDguODk1LDEyLDEweiIgc3R5bGU9ImZpbGw6IzRFNEU1MDsiLz48L2c+PC9nPjwvc3ZnPg==\'/>\n\n  </div> -->\n\n  <form [formGroup]="resetPasswordForm" (submit)="resetPassword()" novalidate>\n\n\n\n  \n\n      <ion-label color=\'primary\' stacked>Email</ion-label>\n\n      <ion-input no-lines formControlName="email" type="email" placeholder="Your email address" \n\n        [class.invalid]="!resetPasswordForm.controls.email.valid && resetPasswordForm.controls.email.dirty">\n\n      </ion-input>\n\n  \n\n    <ion-item no-lines class="error-message" \n\n      *ngIf="!resetPasswordForm.controls.email.valid  && resetPasswordForm.controls.email.dirty">\n\n      <p>Please enter a valid email.</p>\n\n    </ion-item>\n\n\n\n    <button padding ion-button block type="submit" [disabled]="!resetPasswordForm.valid">\n\n      Reset your Password\n\n    </button>\n\n\n\n  </form>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\reset-password\reset-password.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+], ResetPasswordPage);
+
+//# sourceMappingURL=reset-password.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=1.js.map

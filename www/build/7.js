@@ -1,1 +1,118 @@
-webpackJsonp([7],{353:function(n,l,o){"use strict";function t(n){return _._28(0,[(n()(),_._27(null,["\n"])),(n()(),_._8(0,null,null,10,"ion-header",[["no-border",""]],null,null,null,null,null)),_._7(16384,null,0,i.a,[r.a,_.m,_.I,[2,a.a]],null,null),(n()(),_._27(null,["\n\n  "])),(n()(),_._8(0,null,null,6,"ion-navbar",[["class","toolbar"],["color","nav-color"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,s.b,s.a)),_._7(49152,null,0,c.a,[d.a,[2,a.a],[2,h.a],r.a,_.m,_.I],{color:[0,"color"]},null),(n()(),_._27(3,["\n    "])),(n()(),_._8(0,null,3,2,"ion-title",[],null,null,null,p.b,p.a)),_._7(49152,null,0,f.a,[r.a,_.m,_.I,[2,m.a],[2,c.a]],null,null),(n()(),_._27(0,["promo"])),(n()(),_._27(3,["\n  "])),(n()(),_._27(null,["\n\n"])),(n()(),_._27(null,["\n\n\n"])),(n()(),_._8(0,null,null,6,"ion-content",[["class","no-scroll"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,b.b,b.a)),_._7(4374528,null,0,g.a,[r.a,P.a,y.a,_.m,_.I,d.a,w.a,_.C,[2,a.a],[2,h.a]],null,null),(n()(),_._27(1,["\n  "])),(n()(),_._8(0,null,1,2,"ion-title",[["text-center",""]],null,null,null,p.b,p.a)),_._7(49152,null,0,f.a,[r.a,_.m,_.I,[2,m.a],[2,c.a]],null,null),(n()(),_._27(0,["No Promo Available Yet."])),(n()(),_._27(1,["\n"])),(n()(),_._27(null,["\n"]))],function(n,l){n(l,5,0,"nav-color")},function(n,l){n(l,4,0,_._21(l,5)._hidden,_._21(l,5)._sbPadding),n(l,13,0,_._21(l,14).statusbarPadding,_._21(l,14)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});o(0),o(23);var e=function(){function n(n,l){this.navCtrl=n,this.navParams=l}return n.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad PromoPage")},n}(),u=(o(0),o(23),function(){return function(){}}()),_=o(0),i=o(101),r=o(1),a=o(8),s=o(237),c=o(36),d=o(7),h=o(20),p=o(236),f=o(70),m=o(49),b=o(146),g=o(34),P=o(5),y=o(13),w=o(28),M=o(21),v=[],I=_._6({encapsulation:2,styles:v,data:{}}),O=_._5("page-promo",e,function(n){return _._28(0,[(n()(),_._8(0,null,null,1,"page-promo",[],null,null,null,t,I)),_._7(49152,null,0,e,[h.a,M.a],null,null)],null,null)},{},{},[]);o.d(l,"PromoPageModuleNgFactory",function(){return R});var L=o(0),F=o(15),N=o(27),j=o(145),z=o(232),A=o(233),D=o(234),B=o(235),C=o(69),E=this&&this.__extends||function(){var n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(n,l){n.__proto__=l}||function(n,l){for(var o in l)l.hasOwnProperty(o)&&(n[o]=l[o])};return function(l,o){function t(){this.constructor=l}n(l,o),l.prototype=null===o?Object.create(o):(t.prototype=o.prototype,new t)}}(),x=function(n){function l(l){return n.call(this,l,[z.a,A.a,D.a,B.a,O],[])||this}return E(l,n),Object.defineProperty(l.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new F.i(this.parent.get(L.x))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new N.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(l.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new N.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),l.prototype.createInternal=function(){return this._CommonModule_0=new F.b,this._ɵba_1=new N.o,this._FormsModule_2=new N.g,this._ReactiveFormsModule_3=new N.m,this._IonicModule_4=new j.a,this._IonicPageModule_5=new j.b,this._PromoPageModule_6=new u,this._LAZY_LOADED_TOKEN_10=e,this._PromoPageModule_6},l.prototype.getInternal=function(n,l){return n===F.b?this._CommonModule_0:n===N.o?this._ɵba_1:n===N.g?this._FormsModule_2:n===N.m?this._ReactiveFormsModule_3:n===j.a?this._IonicModule_4:n===j.b?this._IonicPageModule_5:n===u?this._PromoPageModule_6:n===F.j?this._NgLocalization_7:n===N.q?this._ɵi_8:n===N.d?this._FormBuilder_9:n===C.a?this._LAZY_LOADED_TOKEN_10:l},l.prototype.destroyInternal=function(){},l}(L._3),R=new L.z(x,u)}});
+webpackJsonp([7],{
+
+/***/ 454:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PhonePageModule", function() { return PhonePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__phone__ = __webpack_require__(472);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var PhonePageModule = (function () {
+    function PhonePageModule() {
+    }
+    return PhonePageModule;
+}());
+PhonePageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [__WEBPACK_IMPORTED_MODULE_2__phone__["a" /* PhonePage */]],
+        imports: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__phone__["a" /* PhonePage */])],
+    })
+], PhonePageModule);
+
+//# sourceMappingURL=phone.module.js.map
+
+/***/ }),
+
+/***/ 472:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PhonePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_profile_profile__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_auth_auth__ = __webpack_require__(152);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(154);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var PhonePage = (function () {
+    function PhonePage(navCtrl, stB, menu, authProvider, formBuilder, loadingCtrl, ph, alertCtrl) {
+        this.navCtrl = navCtrl;
+        this.stB = stB;
+        this.menu = menu;
+        this.authProvider = authProvider;
+        this.formBuilder = formBuilder;
+        this.loadingCtrl = loadingCtrl;
+        this.ph = ph;
+        this.alertCtrl = alertCtrl;
+        menu.swipeEnable(false, 'menu1');
+        this.phoneForm = formBuilder.group({
+            phone: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].minLength(11), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].maxLength(11), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required])],
+        });
+    }
+    PhonePage.prototype.ionViewDidEnter = function () {
+    };
+    PhonePage.prototype.UpdateNumber = function () {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            content: 'Finalizing..'
+        });
+        loading.present();
+        this.ph.UpdateNumber(this.phoneForm.value.phone).then(function (success) {
+            loading.dismiss().then(function (suc) {
+                _this.stB.show();
+                _this.navCtrl.setRoot('HomePage');
+            });
+        });
+    };
+    return PhonePage;
+}());
+PhonePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* IonicPage */])()
+    /**
+     * Generated class for the PhonePage page.
+     *
+     * See http://ionicframework.com/docs/components/#navigation for more info
+     * on Ionic pages and navigation.
+     */
+    ,
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-phone',template:/*ion-inline-start:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\phone\phone.html"*/'<ion-header no-border>\n\n    <ion-navbar color="nav-color">\n\n      <ion-title>\n\n        Add Your Phone Number\n\n      </ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content class="no-scroll" padding>\n\n    <!-- <div text-center>\n\n      <img src=\'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMzJweCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjAgMzI7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyMCAzMiIgd2lkdGg9IjIwcHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJMYXllcl8xIi8+PGcgaWQ9Im1hcF94NUZfcGluX3g1Rl9zdHJva2UiPjxnPjxwYXRoIGQ9Ik05Ljk5Niw0YzEuNjA1LDAsMy4xMTMsMC42MjUsNC4yNDYsMS43NkMxNS4zNzUsNi44OTEsMTYsOC4zOTgsMTYsMTBzLTAuNjI1LDMuMTA5LTEuNzMsNC4yMTMgICAgYy0wLjE2OCwwLjE2Ni0yLjIzOCwyLjIyNS00LjI3Myw1LjQ0MWMtMi4wMi0zLjIxMS00LjA4Mi01LjI2Mi00LjIzOC01LjQxNEM0LjYyNSwxMy4xMDksNCwxMS42MDIsNCwxMHMwLjYyNS0zLjEwOSwxLjc1OC00LjI0MiAgICBTOC4zMTQsNCw5Ljk5Niw0IE05Ljk5NiwwQzcuNDQxLDAsNC44ODMsMC45NzcsMi45MywyLjkzYy0zLjkwNiwzLjkwNC0zLjkwNiwxMC4yMzYsMCwxNC4xNDFjMCwwLDcuMDY2LDYuOTMsNy4wNjYsMTQuOTMgICAgYzAtOCw3LjA3NC0xNC45Myw3LjA3NC0xNC45M2MzLjkwNi0zLjkwNCwzLjkwNi0xMC4yMzYsMC0xNC4xNDFDMTUuMTE3LDAuOTc3LDEyLjU1OSwwLDkuOTk2LDBMOS45OTYsMHoiIHN0eWxlPSJmaWxsOiM0RTRFNTA7Ii8+PHBhdGggZD0iTTEyLDEwYzAsMS4xMDUtMC44OTUsMi0yLjAwNCwyQzguODExLDEyLDgsMTEuMTA1LDgsMTBzMC44MTEtMiwxLjk5Ni0yQzExLjEwNSw4LDEyLDguODk1LDEyLDEweiIgc3R5bGU9ImZpbGw6IzRFNEU1MDsiLz48L2c+PC9nPjwvc3ZnPg==\'/>\n\n    </div> -->\n\n  \n\n    <form [formGroup]="phoneForm" (submit)="UpdateNumber(phone)" novalidate>\n\n     \n\n\n\n        <ion-label text-center color="primary" paddding stacked>PhoneNumber</ion-label>\n\n        <ion-input formControlName="phone" type="tel" placeholder="Your phone number" \n\n          [class.invalid]="!phoneForm.controls.phone.valid && phoneForm.controls.phone.dirty">\n\n        </ion-input>\n\n      \n\n      <ion-item no-lines class="error-message" \n\n        *ngIf="!phoneForm.controls.phone.valid  && phoneForm.controls.phone.dirty">\n\n        <p>11 numbers needed e.g 080XXXXXXXXX</p>\n\n      </ion-item>\n\n  \n\n  \n\n      <button padding ion-button block type="submit" [disabled]="!phoneForm.valid">\n\n        Next\n\n      </button>\n\n\n\n    </form>\n\n\n\n    <ion-item-divider text-center class=\'warn\'>\n\n        Please Check Number Again, For Any Error.\n\n      </ion-item-divider>\n\n  </ion-content>'/*ion-inline-end:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\phone\phone.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* MenuController */], __WEBPACK_IMPORTED_MODULE_4__providers_auth_auth__["a" /* AuthProvider */],
+        __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1__providers_profile_profile__["a" /* ProfileProvider */],
+        __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */]])
+], PhonePage);
+
+//# sourceMappingURL=phone.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=7.js.map

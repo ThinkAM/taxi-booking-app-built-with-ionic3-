@@ -45,15 +45,9 @@ import { AnimControlProvider } from '../providers/anim-control/anim-control';
 import { PopUpProvider } from '../providers/pop-up/pop-up';
 import { OnesignalProvider } from '../providers/onesignal/onesignal';
 import { NativeMapContainerProvider } from '../providers/native-map-container/native-map-container';
+import * as config from '../../config.json';
 
-export const firebaseConfig = {
-  apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  authDomain: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  databaseURL: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  storageBucket: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-  messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-  
-};
+export const firebaseConfig = config;
 
 firebase.initializeApp(firebaseConfig);
 

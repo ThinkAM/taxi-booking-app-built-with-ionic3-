@@ -43,7 +43,7 @@
     </platform>
     <universal-links>
         <host name="abc123.app.goo.gl" scheme="https" />
-        <host name="my-app.firebaseapp.com" scheme="https">
+        <host name="thinkcar-br.firebaseapp.com" scheme="https">
             <path url="/__/auth/callback" />
         </host>
     </universal-links>

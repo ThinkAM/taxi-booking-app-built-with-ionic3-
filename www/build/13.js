@@ -1,1 +1,101 @@
-webpackJsonp([13],{346:function(l,n,u){"use strict";function t(l){return r._28(0,[(l()(),r._8(0,null,null,10,"ion-header",[["no-border",""]],null,null,null,null,null)),r._7(16384,null,0,_.a,[i.a,r.m,r.I,[2,a.a]],null,null),(l()(),r._27(null,["\n  "])),(l()(),r._8(0,null,null,6,"ion-navbar",[["class","toolbar"],["color","nav-color"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,s.b,s.a)),r._7(49152,null,0,c.a,[d.a,[2,a.a],[2,h.a],i.a,r.m,r.I],{color:[0,"color"]},null),(l()(),r._27(3,["\n    "])),(l()(),r._8(0,null,3,2,"ion-title",[],null,null,null,p.b,p.a)),r._7(49152,null,0,f.a,[i.a,r.m,r.I,[2,v.a],[2,c.a]],null,null),(l()(),r._27(0,["Details"])),(l()(),r._27(3,["\n  "])),(l()(),r._27(null,["\n"])),(l()(),r._27(null,["\n\n"])),(l()(),r._8(0,null,null,38,"ion-content",[["class","no-scroll"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,g.b,g.a)),r._7(4374528,null,0,b.a,[i.a,m.a,y.a,r.m,r.I,d.a,E.a,r.C,[2,a.a],[2,h.a]],null,null),(l()(),r._27(1,["\n  "])),(l()(),r._8(0,null,1,2,"ion-row",[["class","row"],["padding",""]],null,null,null,null,null)),r._7(16384,null,0,P.a,[],null,null),(l()(),r._27(null,["\n  "])),(l()(),r._27(1,["\n  "])),(l()(),r._8(0,null,1,30,"ion-card",[],null,null,null,null,null)),r._7(16384,null,0,w.a,[i.a,r.m,r.I],null,null),(l()(),r._27(null,["\n    "])),(l()(),r._8(0,null,null,2,"ion-card-header",[],null,null,null,null,null)),r._7(16384,null,0,I.a,[i.a,r.m,r.I],null,null),(l()(),r._27(null,["\n      ","\n    "])),(l()(),r._27(null,["\n    "])),(l()(),r._8(0,null,null,22,"ion-card-content",[],null,null,null,null,null)),r._7(16384,null,0,M.a,[i.a,r.m,r.I],null,null),(l()(),r._27(null,["\n        "])),(l()(),r._8(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),r._27(null,["Price: "])),(l()(),r._8(0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),r._27(null,["$",""])),(l()(),r._27(null,["\n        "])),(l()(),r._8(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),r._27(null,["Date: "])),(l()(),r._8(0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),r._27(null,["",""])),(l()(),r._27(null,["\n        "])),(l()(),r._8(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),r._27(null,["Location: "])),(l()(),r._8(0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),r._27(null,["$",""])),(l()(),r._27(null,["\n        "])),(l()(),r._8(0,null,null,3,"p",[],null,null,null,null,null)),(l()(),r._27(null,["Destination: "])),(l()(),r._8(0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),r._27(null,["",""])),(l()(),r._27(null,["\n    "])),(l()(),r._27(null,["\n  "])),(l()(),r._27(1,["\n\n \n\n"]))],function(l,n){l(n,4,0,"nav-color")},function(l,n){var u=n.component;l(n,3,0,r._21(n,4)._hidden,r._21(n,4)._sbPadding),l(n,12,0,r._21(n,13).statusbarPadding,r._21(n,13)._hasRefresher),l(n,24,0,null==u.currentEvent?null:u.currentEvent.name),l(n,32,0,null==u.currentEvent?null:u.currentEvent.price),l(n,37,0,null==u.currentEvent?null:u.currentEvent.date),l(n,42,0,null==u.currentEvent?null:u.currentEvent.location),l(n,47,0,null==u.currentEvent?null:u.currentEvent.destination)})}Object.defineProperty(n,"__esModule",{value:!0});u(0),u(23),u(103);var e=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.eventProvider=u,this.currentEvent={}}return l.prototype.ionViewDidEnter=function(){var l=this;this.eventProvider.getEventDetail(this.navParams.get("eventId")).on("value",function(n){l.currentEvent=n.val(),l.currentEvent.id=n.key})},l}(),o=(u(0),u(23),function(){return function(){}}()),r=u(0),_=u(101),i=u(1),a=u(8),s=u(237),c=u(36),d=u(7),h=u(20),p=u(236),f=u(70),v=u(49),g=u(146),b=u(34),m=u(5),y=u(13),E=u(28),P=u(105),w=u(162),I=u(164),M=u(163),D=u(21),O=u(103),F=[],L=r._6({encapsulation:2,styles:F,data:{}}),N=r._5("page-history-details",e,function(l){return r._28(0,[(l()(),r._8(0,null,null,1,"page-history-details",[],null,null,null,t,L)),r._7(49152,null,0,e,[h.a,D.a,O.a],null,null)],null,null)},{},{},[]);u.d(n,"HistoryDetailsPageModuleNgFactory",function(){return T});var j=u(0),z=u(15),A=u(27),B=u(145),C=u(232),H=u(233),R=u(234),k=u(235),q=u(69),x=this&&this.__extends||function(){var l=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(l,n){l.__proto__=n}||function(l,n){for(var u in n)n.hasOwnProperty(u)&&(l[u]=n[u])};return function(n,u){function t(){this.constructor=n}l(n,u),n.prototype=null===u?Object.create(u):(t.prototype=u.prototype,new t)}}(),K=function(l){function n(n){return l.call(this,n,[C.a,H.a,R.a,k.a,N],[])||this}return x(n,l),Object.defineProperty(n.prototype,"_NgLocalization_7",{get:function(){return null==this.__NgLocalization_7&&(this.__NgLocalization_7=new z.i(this.parent.get(j.x))),this.__NgLocalization_7},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_ɵi_8",{get:function(){return null==this.__ɵi_8&&(this.__ɵi_8=new A.q),this.__ɵi_8},enumerable:!0,configurable:!0}),Object.defineProperty(n.prototype,"_FormBuilder_9",{get:function(){return null==this.__FormBuilder_9&&(this.__FormBuilder_9=new A.d),this.__FormBuilder_9},enumerable:!0,configurable:!0}),n.prototype.createInternal=function(){return this._CommonModule_0=new z.b,this._ɵba_1=new A.o,this._FormsModule_2=new A.g,this._ReactiveFormsModule_3=new A.m,this._IonicModule_4=new B.a,this._IonicPageModule_5=new B.b,this._HistoryDetailsPageModule_6=new o,this._LAZY_LOADED_TOKEN_10=e,this._HistoryDetailsPageModule_6},n.prototype.getInternal=function(l,n){return l===z.b?this._CommonModule_0:l===A.o?this._ɵba_1:l===A.g?this._FormsModule_2:l===A.m?this._ReactiveFormsModule_3:l===B.a?this._IonicModule_4:l===B.b?this._IonicPageModule_5:l===o?this._HistoryDetailsPageModule_6:l===z.j?this._NgLocalization_7:l===A.q?this._ɵi_8:l===A.d?this._FormBuilder_9:l===q.a?this._LAZY_LOADED_TOKEN_10:n},n.prototype.destroyInternal=function(){},n}(j._3),T=new j.z(K,o)}});
+webpackJsonp([13],{
+
+/***/ 447:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EntrancePageModule", function() { return EntrancePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__entrance__ = __webpack_require__(465);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var EntrancePageModule = (function () {
+    function EntrancePageModule() {
+    }
+    return EntrancePageModule;
+}());
+EntrancePageModule = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_2__entrance__["a" /* EntrancePage */],
+        ],
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__entrance__["a" /* EntrancePage */]),
+        ],
+    })
+], EntrancePageModule);
+
+//# sourceMappingURL=entrance.module.js.map
+
+/***/ }),
+
+/***/ 465:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EntrancePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(25);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the EntrancePage page.
+ *
+ * See http://ionicframework.com/docs/components/#navigation for more info
+ * on Ionic pages and navigation.
+ */
+var EntrancePage = (function () {
+    function EntrancePage(navCtrl, load, navParams) {
+        this.navCtrl = navCtrl;
+        this.load = load;
+        this.navParams = navParams;
+    }
+    EntrancePage.prototype.ionViewDidLoad = function () {
+        this.presentRouteLoader('Please Wait..');
+    };
+    EntrancePage.prototype.presentRouteLoader = function (message) {
+        var _this = this;
+        var loading = this.load.create({
+            content: message
+        });
+        loading.present();
+        var myTimeout = setTimeout(function () {
+            loading.dismiss();
+            _this.navCtrl.setRoot('SignupPage');
+            clearTimeout(myTimeout);
+        }, 1000);
+    };
+    return EntrancePage;
+}());
+EntrancePage = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'page-entrance',template:/*ion-inline-start:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\entrance\entrance.html"*/'<!--\n\n  Generated template for the EntrancePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Temp\GitHub\ThinkAM\taxi-booking-app-built-with-ionic3-\src\pages\entrance\entrance.html"*/,
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* NavParams */]])
+], EntrancePage);
+
+//# sourceMappingURL=entrance.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=13.js.map
